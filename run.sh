@@ -9,8 +9,8 @@ MAIL_TO='адресат@gmail.com'
 MAIL_NAME='backup mysql'
 MAIL_BODY="ERROR"
 MAIL_SMTP='smtp.gmail.com:587'
-MAIL_LOGIN='login@gmail.com'
-MAIL_PASS='password'
+MAIL_LOGIN='mylogin@gmail.com'
+MAIL_PASS='mypassword'
 #--------------------------------------------------------------------
 #End settings
 #--------------------------------------------------------------------
