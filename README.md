@@ -1,6 +1,14 @@
-# sendemail-docker
-fix error
-    sendemail[1]: ERROR => TLS setup failed: SSL connect attempt failed error:1416F086:SSL
-    routines:tls_process_server_certificate:certificate verify failed
-https://www.raspberrypi.org/forums/viewtopic.php?t=150579
+# Sendemail-docker
 
+Sendemail-docker - агент передачи электронной почты в докер-контейнере
+
+## Установка
+
+Для установки и начального запуска выполните команды:
+
+    git clone https://github.com/chatlamin/sendemail-docker
+    cd sendemail-docker
+    ./build.sh
+    ./run.sh
+
+Для конфигурарования откройте файл run.sh и отредактируется блок Settings.
