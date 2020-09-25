@@ -1,6 +1,6 @@
 #!/bin/bash
 #Настройки
-source settings.sh
+source ../settings.sh
 
 docker push $IMAGE_AMD64
 docker push $IMAGE_ARMHF

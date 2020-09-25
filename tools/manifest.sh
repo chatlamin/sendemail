@@ -1,6 +1,6 @@
 #!/bin/bash
 #Настройки
-source settings.sh
+source ../settings.sh
 
 #master
 docker manifest create \
