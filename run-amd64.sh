@@ -18,8 +18,6 @@ MAIL_PASS='mypassword'
 #--------------------------------------------------------------------
 
 docker run --rm \
-    -v $CONTAINER_NAME:/etc \
-    -v $CONTAINER_NAME:/var \
     $IMAGE_AMD64 \
     sendemail \
     -o tls=yes \
