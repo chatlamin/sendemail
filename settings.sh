@@ -9,7 +9,7 @@ REPOSITORY=chatlamin/sendemail
 #Архитектура armhf
 ARCH_ARMHF=armhf
 #Архитектура amd64
-ARCH_ADM64=amd64
+ARCH_AMD64=amd64
 #Тэг образа старый
 TAG_OLD=latest
 #Тэг образа новый

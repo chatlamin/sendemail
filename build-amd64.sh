@@ -4,4 +4,4 @@ source settings.sh
 
 docker build \
     --tag $IMAGE_AMD64 \
-    --file Dockerfile
+    --file Dockerfile .
