@@ -18,7 +18,7 @@ TAG_NEW=latest
 
 
 #Образ итоговый armhf
-IMAGE_ARMHF=chatlamin/$NAME-$ARCH_ARMFH:$TAG_NEW
+IMAGE_ARMHF=chatlamin/$NAME-$ARCH_ARMHF:$TAG_NEW
 #Образ итоговый adm64
 IMAGE_AMD64=chatlamin/$NAME-$ARCH_AMD64:$TAG_NEW
 #Образ репозитория старый
