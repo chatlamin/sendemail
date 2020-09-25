@@ -1,3 +1,5 @@
 #!/bin/bash
+#Настройки
+source settings.sh
 
-docker build -t chatlamin/sendemail-docker .
+docker build --tag $IMAGE_TARGET .
