@@ -3,8 +3,8 @@
 source settings.sh
 
 docker manifest create \
-    chatlamin/$REPOSITORY:$TAG_NEW \
+    $REPOSITORY:$TAG_NEW \
     --amend $IMAGE_AMD64 \
-    --amend $IMAGE_ARMFH
+    --amend $IMAGE_ARMHF
 
-docker manifest push chatlamin/$REPOSITORY:$TAG_NEW
+docker manifest push $REPOSITORY:$TAG_NEW
