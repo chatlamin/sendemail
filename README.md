@@ -1,14 +1,14 @@
-# Sendemail-docker
+# Sendemail
 
-Sendemail-docker - агент передачи электронной почты в докер-контейнере
+Sendemail - агент передачи электронной почты в докер-контейнере
 
 ## Установка
 
 Для установки и начального запуска выполните команды:
 
-    git clone https://github.com/chatlamin/sendemail-docker
-    cd sendemail-docker
+    git clone https://github.com/chatlamin/sendemail
+    cd sendemail
     ./build.sh
     ./run.sh
 
-Для конфигурарования откройте файл run.sh и отредактируется блок Settings.
+Для конфигурирования откройте файл run.sh и отредактируйте блок Settings.

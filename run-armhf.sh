@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source settings.sh
+
 #---------------------------------------------------------------------
 # Settings
 #---------------------------------------------------------------------
@@ -16,9 +18,7 @@ MAIL_PASS='mypassword'
 #--------------------------------------------------------------------
 
 docker run --rm \
-    --volume /etc/localtime:/etc/localtime:ro \
-    --volume /etc/timezone:/etc/timezone:ro \
-    chatlamin/sendemail-docker:latest \
+    $IMAGE_ARMHF \
     sendemail \
     -o tls=yes \
     -f $MAIL_FROM \
