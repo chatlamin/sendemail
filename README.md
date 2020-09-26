@@ -1,6 +1,13 @@
 # sendemail
 
-sendemail - агент передачи электронной почты в докер-контейнере
+[sendemail](https://packages.debian.org/ru/sid/sendemail) - SMTP агент передачи электронной почты.
+
+[hub.docker.com](https://hub.docker.com/r/chatlamin/sendemail)
+
+| Architecture |
+| :----: |
+| x86-64 |
+| armhf |
 
 ## Запуск
 
@@ -8,7 +15,8 @@ sendemail - агент передачи электронной почты в д�
 
     docker run --rm \
     chatlamin/sendemail:latest \
-    sendemail --help
+    sendemail \
+    --help
 
 ## Пример
 

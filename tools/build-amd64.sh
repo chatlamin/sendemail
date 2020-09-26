@@ -2,12 +2,8 @@
 #Настройки
 source ../settings.sh
 
-#latest
+#stable
 docker build \
-    --tag $IMAGE_AMD64_MASTER \
-    --file ../Dockerfile .
-
-#new version
-docker build \
-    --tag $IMAGE_AMD64 \
+    --build-arg ARCH_AMD64 \
+    --tag $IMAGE_STABLE \
     --file ../Dockerfile .

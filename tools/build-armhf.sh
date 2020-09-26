@@ -2,12 +2,8 @@
 #Настройки
 source ../settings.sh
 
-#latest
+#stable
 docker build \
-    --tag $IMAGE_ARMHF_MASTER \
-    --file ../Dockerfile.armhf .
-
-#new version
-docker build \
-    --tag $IMAGE_ARMHF \
-    --file ../Dockerfile.armhf .
+    --build-arg ARCH_ARMHF \
+    --tag $IMAGE_STABLE \
+    --file ../Dockerfile .
